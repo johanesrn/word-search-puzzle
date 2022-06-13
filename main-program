@@ -1,4 +1,6 @@
 # MAIN CODE
+from brute-force import *
+from backtracking import *
 import time
 
 puzzle = [
