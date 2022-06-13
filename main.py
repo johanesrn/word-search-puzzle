@@ -1,5 +1,5 @@
 # MAIN CODE
-from brute-force import *
+from bruteforce import *
 from backtracking import *
 import time
 
