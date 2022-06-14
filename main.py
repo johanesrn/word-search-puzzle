@@ -58,11 +58,11 @@ print("========== MEMULAI PENCARIAN ==========")
 start_time = time.time()
 if (opt == 1):
   BruteForce(puzzle, word)
-  print("Waktu Brute Force: %s seconds ---" % (time.time() - start_time))
+  print("Waktu Brute Force: %f seconds ---" % (time.time() - start_time))
 
 else:
   Backtracking(puzzle, word)
-  print("Waktu Backtracking: %s seconds ---" % (time.time() - start_time))
+  print("Waktu Backtracking: %f seconds ---" % (time.time() - start_time))
 
 
 print("========== PENCARIAN SELESAI ==========")
