@@ -104,7 +104,7 @@ def BruteForce(puzzle, word):
             match = True
             idx = 2
             while (idx < lenWord) and match:
-              if (puzzle[row+idx][col-idx]) and (col-idx >= 0):
+              if (puzzle[row+idx][col-idx] == word[idx]) and (col-idx >= 0):
                 idx += 1
               else:
                 match = False
